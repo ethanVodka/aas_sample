@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
 }
 
 .App-logo {
@@ -35,4 +41,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
 }

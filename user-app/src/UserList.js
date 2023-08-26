@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './UserList.css'
 
 function UserList() {
     // ユーザーのリストを管理するための状態
