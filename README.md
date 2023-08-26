@@ -29,13 +29,13 @@ Consider defining a bean of type 'com.furkat.aas_sample.UsersDao' in your config
 @Autowiredのアノテーション部分をコンストラクターを扱う形に変更して解消できた
 
 ``` java
-// finalを追加して変更不可とします
-private final UsersDao usersDao;
+    // finalを追加して変更不可とします
+    private final UsersDao usersDao;
 
-// コンストラクタを追加して依存関係を注入します
-public AasSampleApplication(UsersDao usersDao) {
-	this.usersDao = usersDao;  // DAOを注入
-}
+    // コンストラクタを追加して依存関係を注入します
+    public Controller(UsersDao usersDao) {
+        this.usersDao = usersDao;
+    }
 ``` 
 
 ### 3 - 環境構築＆ビルド手順
@@ -54,8 +54,6 @@ public AasSampleApplication(UsersDao usersDao) {
 
 ### 4 - 動画
 
-
-
-https://github.com/ethanVodka/aas_sample/assets/75683178/b20c5f9d-ea43-4df2-9cd3-310adc54882a
+https://github.com/ethanVodka/aas_sample/assets/75683178/15289da0-037e-44ef-b215-cc4e1b62b11d
 
 
