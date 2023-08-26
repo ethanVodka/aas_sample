@@ -26,7 +26,7 @@ function UserForm() {
                 onChange={e => setName(e.target.value)}  // 入力値が変わるたびに名前の状態を更新
                 placeholder="User name" 
             />
-            <button type="submit">Add User</button>  // このボタンをクリックするとユーザーが追加される
+            <button type="submit">Add User</button>  
         </form>
     );
 }
