@@ -11,7 +11,7 @@
 - __.....などなど__
 
 ### 2 - 苦労したところ
-- React と java でデータのやり取りを行う部分
+- __React と java でデータのやり取りを行う部分__
 - __Spring-Boot と posgreSQL を Doma2 でアクセスし、データの追加、表示する部分__
 
 ```
@@ -36,7 +36,8 @@ Consider defining a bean of type 'com.furkat.aas_sample.UsersDao' in your config
     public Controller(UsersDao usersDao) {
         this.usersDao = usersDao;
     }
-``` 
+```
+- __java の　spring-bootの記述方法、react での記述方法
 
 ### 3 - 環境構築＆ビルド手順
 
